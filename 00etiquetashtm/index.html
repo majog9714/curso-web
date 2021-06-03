@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en-CO" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Etiquetas HTML</title>
+    <meta name="description" content="En este documeto revisaremos algunas etiquetas básica de html">
+    <style>
+      div,h1,h3,h5 { background: orange;
+            display: block;
+          }
+      span { background:skyblue;
+            display: inline;
+            }
+      ol { list-style: lower-greek; }
+      ul { list-style-type: square; }
+      a
+      {
+         color: sandybrown;
+      }
+      a:hover
+      {
+          color: rosybrown;
+          font-size: 200%;
+      }
+      iframe
+      {
+        width:80%;
+        height:700px;
+      }
+      #estaciones>li:first-child{background:grey;}
+
+      .listas>li
+      {
+        display: inline;
+        border-right:thin solid #FF0000;
+        padding:0 1em;
+      }
+      .listas>li:last-child{border: 0}
+
+    </style>
+
+  </head>
+  <body>
+
+    <p>Contenido del documento mi primer página diseñada en HTML5
+    </p>
+    <div id="arriba">  Esto es un div</div>
+     <img src="html5.jpg" alt="HTML5" title="Logo" border="10" width="256" height="230"/>
+     <span>esto es una span</span>
+     <h1>ENCABEZADO TIPO 1</h1>
+     <h2>ENCABEZADO TIPO 2</h2>
+     <h3>Tipo 3</h3>
+     <h4>tipo 4</h4>
+     <h5>tipo 5</h5>
+     <h6>tipo 6</h6>
+     <p>Esto es un párrafo. Y éste texto está en <b>negrita</b>
+       , <i>cursiva</i>, <u>subrayado</u>. <strong>Esta parte es importante</strong>
+       , <mark>esta parte esta resaltada</mark> <em>esto tiene enfasis</em> y estas son
+       <small>letras chiquitas, como en los contratos.</small>
+     </p>
+     <p>la formula del agua es H <sub>2</sub>O</p>
+     <br> <hr> <br>
+     <p>la fromula de la relatividad es e= mc <sup>2</sup></p>
+     <h2>Listas desordenadas (viñetas)</h2>
+     <ul id="estaciones" class="listas">
+       <li>primavera</li>
+       <li>verano</li>
+       <li>invierno</li>
+      <li>otoño</li>
+     </ul>
+     <h2>Listas ordenadas</h2>
+     <ol class="listas">
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>AJAX</li>
+       <li>PHP</li>
+       <li>mysql</li>
+     </ol>
+     <h2>Listas multinivel</h2>
+      <ul class="listas">
+        <li>Frontend:
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ol>
+      </li>
+        <li>Backend:
+          <ol>
+            <li>AJAX</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ol>
+        </li>
+      </ul>
+      <a href="http://google.com" target="_blank">Google</a>
+      <a href="http://w3.org/html/logo">
+        <img src="html5.jpg" alt="HTML5">
+      </a>
+      <a href="mailto:majog9714@gmail.com subject=feedback">email me</a>
+      <a href="#arriba">pa´rriba</a>
+      <br><br>
+      <iframe src="Currículum.pdf" ></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.277579881081!2d-77.1318005!3d1.3932413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed37b65e7762b%3A0x19fae26073b8ae96!2sTOLDOPAMBA%20S.A.S.!5e0!3m2!1ses-419!2sco!4v1622581488134!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </body>
+</html>

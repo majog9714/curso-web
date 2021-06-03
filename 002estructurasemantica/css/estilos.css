@@ -1,0 +1,49 @@
+*
+{
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+
+aside, #principal
+{
+  display: inline-block;
+  background: #1E6381;
+  width: 60%;
+}
+aside{ width: 35%;}
+body, html
+{
+  background: #212121;
+  color: white;
+  font-family: sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+/*h1
+{
+    /*background: yellow;*/
+    /*color: #F60;
+    /*margin: 0.25em auto;
+    /*width: 90%;
+}*/
+/*header, nav, footer*/
+main
+{
+  margin: ,25em 0;
+  padding: .25em;
+  width: 80%;
+}
+.fila
+{
+  background: #1E6381;
+  margin: .25em auto;
+  padding: .25em;
+  width: 80%;
+}
+.titulo
+{
+  color: #F60;
+  margin: 0.25em auto;
+  width: 90%;
+}
