@@ -48,3 +48,42 @@ ul
 #fuentes-google{
   font-family: 'Nunito', sans-serif;
 }
+#fuentes-unidades{
+  font-size: 64px;
+}
+#fuentes-unidades>p:first-child
+{
+  font-size: 1em;
+}
+#fuentes-unidades>p:last-child
+{
+  font-size: 1rem;
+}
+#sombras
+{
+  box-shadow: .1em .1em .5em rgba(0, 0, 0, 0.5) inset,
+              .3em .3em .5em rgba(255,102,0,.7);
+  text-shadow: .3em .3em .25em rgba(0, 0, 0, 0.75);
+}
+.gradientes{
+  height: 300px;
+
+}
+#glineal{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+}
+#gradial{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+  background: #cb60b3; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
