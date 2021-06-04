@@ -87,3 +87,18 @@ ul
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
+/*https://www.colorzilla.com/gradient-editor/*/
+#ajuste-texto
+{
+  background: #333;
+  margin: auto;
+  width: 100px;
+  word-wrap: break-word;
+}
+#texto-columnas
+{
+  column-count: 3;
+  column-gap: 1em;
+  column-rule: thin solid black;
+  
+}
