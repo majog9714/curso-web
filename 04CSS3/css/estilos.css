@@ -112,3 +112,21 @@ ul
   box-sizing: border-box;
 }
 #fondos-multiples
+{
+  background: url("../img/arbol.png") no-repeat center bottom,
+              url("../img/aves.png") no-repeat center bottom,
+              url("../img/cielo.png") no-repeat center top;
+  background-color: skyblue;
+  color: #292623;
+  height: 700px;
+  width: 100%;
+
+}
+#fondo-area
+{
+  background: #292623;
+  border-style: dashed;
+  border-color: pink;
+  border-width: medium;
+  padding: 1em;
+}
