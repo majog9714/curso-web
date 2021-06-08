@@ -100,5 +100,15 @@ ul
   column-count: 3;
   column-gap: 1em;
   column-rule: thin solid black;
-  
 }
+.tamanio-caja
+{
+  background: #999;
+  margin: .5em auto;
+  padding: 1em;
+  width: 50%;
+}
+.a-dieta{
+  box-sizing: border-box;
+}
+#fondos-multiples
