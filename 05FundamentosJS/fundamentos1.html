@@ -17,6 +17,7 @@
        <a href="index.html">Regresar al inicio</a>
      </p>
      <h2>Definiendo un perro</h2>
+
      <script>
        //comentario de una linea
        /*comentarios
@@ -54,10 +55,19 @@
          }
          o.ladrar= function(){
            alert("Guauu guauu!");
-           var audio = document.createElement("audio");
+          /* let boton = document.querySelector(".reproductor")
+
+           boton.addEventListener("click", () => {
+             let etiquetaAudio = document.createElement("audio")
+             etiquetaAudio.setAttribute("src", "activos/guau.mp3")
+             etiquetaAudio.play()
+           })*/
+           var audio= document.createElement("audio");
            audio.src= "activos/guau.mp3";
+           audio.controls=true;
            document.body.appendChild(audio);
            return audio.play();
+
          }
          o.comer= function(c){
            o.comida=c;
@@ -89,5 +99,6 @@
        iniciar();
 
      </script>
+
   </body>
 </html>
