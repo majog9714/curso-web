@@ -130,3 +130,41 @@ ul
   border-width: medium;
   padding: 1em;
 }
+#animaciones
+{
+  background: black;
+}
+#pacman{
+  border: 1.5em solid yellow;
+  border-right: 1.5em solid transparent;
+  border-radius: 1.5em;
+  height: 0;
+  position: relative;
+  width: 0;
+}
+#ojo{
+  background: black;
+  border-radius: .5em;
+  left: -.25em;
+  height: .5em;
+  position: relative;
+  top: -1.25em;
+  width: .5em;
+}
+.animado{
+  animation: walk 4s infinite alternate 2s ease-out;
+}
+@keyframes walk
+{
+    0%, 100%
+    {
+      left:0%;
+    }
+    45%
+    {
+      left: 92.5%;
+      border-color: blue;
+      border-right-color: transparent;
+      
+    }
+}
