@@ -46,7 +46,7 @@
          o.aparecer= function(){
 
            //alert("El objeto aparece");
-           var imagen = document.createElement("img");
+           imagen = document.createElement("img");
            imagen.src= o.foto;
            imagen.alt= o.nombre;
            imagen.title= o.nombre;
@@ -75,12 +75,15 @@
            return alerta;
          }
          o.mover= function(){
-           alert("se movió")
+           //alert("se movió")
+           imagen.style.position= "relative";
+           imagen.style.left="10em";
+           imagen.style.borderRadius = "100%";
          }
        }
        function iniciar(){
          //alert("Ejecutando iniciar");
-         var kenai= new Perro("Kenai","zorrillo",2,true,true,"activos/kenai.jpg",);
+         var kenai= new Perro("Kenai","zorrillo",2,true,true,"activos/kenai.jpg");
          //alert(kenai);
          //document.write(kenai+"<br>"+window+"<br>"+document+"<br>"+navigator)
          //console.log(kenai,window,navigator,document);
@@ -90,15 +93,13 @@
          document.write("<p>"+kenai.sexo+"</p>");
          document.write("<p>"+kenai.adiestrado+"</p>");
          kenai.aparecer();
-
+         kenai.ladrar();
          kenai.comer("tacos");
          kenai.comer("croquetas");
          kenai.mover();
-         kenai.ladrar();
+
        }
        iniciar();
-
      </script>
-
-  </body>
+</body>
 </html>
