@@ -1,0 +1,22 @@
+body{
+  background-color: hsla(4, 70%, 9%, 1);
+}
+p{
+  color:white;
+  background-color: crimson;
+  padding: 15px;
+  border: 10px solid powderblue;
+  margin: 50px
+}
+h1, h2, h3 {
+  background-color: powderblue;
+}
+div{
+  align-self: center;
+  padding: 10em 5em;
+  margin-top: 10em;
+  border-radius: 6em;
+  background-image: url("../imagenes/1.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+}
